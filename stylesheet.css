@@ -10,7 +10,7 @@ body {
 	padding-top:30mm;
 	width: 210mm;
 	height: 290mm;
-	background: url(img/slingers.png) no-repeat center -54px, url(img/verjaardag.jpg) no-repeat center bottom;
+	background: url(img/slingers.png) no-repeat center -54px, url(img/huis.png) no-repeat center bottom;
 }
 
 h1 {
@@ -64,6 +64,10 @@ ol.calendar li .maand {
 	right:0;
 }
 
+ol.calendar li.roze {
+	background-color: pink;
+}
+
 ol.calendar li.intocht-sinterklaas {
 	background: url(img/intocht-sinterklaas.jpg) no-repeat center center / cover;
 	color: #fff;
@@ -112,6 +116,13 @@ ol.calendar li.kerk {
 
 ol.calendar li.school {
 	background: url(img/school.jpg) no-repeat center center / cover;
+	color: #fff;
+	text-shadow: 0 0 12px rgba(0,0,0,0.75);
+	-webkit-filter: grayscale(100%);
+}
+
+ol.calendar li.sleutel-huis {
+	background: url(img/sleutel-huis.jpeg) no-repeat center center / cover;
 	color: #fff;
 	text-shadow: 0 0 12px rgba(0,0,0,0.75);
 	-webkit-filter: grayscale(100%);
