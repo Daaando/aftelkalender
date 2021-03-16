@@ -127,3 +127,10 @@ ol.calendar li.sleutel-huis {
 	text-shadow: 0 0 12px rgba(0,0,0,0.75);
 	-webkit-filter: grayscale(100%);
 }
+
+ol.calendar li.keuken {
+	background: url(img/keuken.jpg) no-repeat center center / cover;
+	color: #fff;
+	text-shadow: 0 0 12px rgba(0,0,0,0.75);
+	-webkit-filter: grayscale(100%);
+}
