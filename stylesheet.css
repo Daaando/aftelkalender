@@ -10,7 +10,7 @@ body {
 	padding-top:30mm;
 	width: 210mm;
 	height: 290mm;
-	background: url(img/slingers.png) no-repeat center -54px, url(img/huis.png) no-repeat center bottom;
+	background: url(img/slingers.png) no-repeat center -54px, url(img/verjaardag.jpg) no-repeat center bottom;
 }
 
 h1 {
@@ -27,8 +27,8 @@ ol.calendar {
 ol.calendar li {
 	border: 1px solid black;
 	border-radius: 50%;
-	width: 20mm;
-	height: 20mm;
+	width: 40mm;
+	height: 40mm;
 	text-align: center;
 	line-height: 20mm;
 	float: left;
@@ -41,7 +41,7 @@ ol.calendar li {
     -webkit-filter:opacity(1);
 }
 
-ol.calendar li:nth-child(5n+1) {
+ol.calendar li:nth-child(3n+1) {
 	clear: left;
 	margin-left: 0;
 }
@@ -50,7 +50,7 @@ ol.calendar li .dag {
 	font-size: 50px;
 	display:block;
 	position: absolute;
-	top: -8px;
+	top: 20px;
 	left:0;
 	right:0;
 }
@@ -59,7 +59,7 @@ ol.calendar li .maand {
 	font-size: 30px;
 	display:block;
 	position: absolute;
-	top: 18px;
+	top: 48px;
 	left:0;
 	right:0;
 }
@@ -131,6 +131,19 @@ ol.calendar li.sleutel-huis {
 ol.calendar li.keuken {
 	background: url(img/keuken.jpg) no-repeat center center / cover;
 	color: #fff;
+	text-shadow: 0 0 12px rgba(0,0,0,0.75);
+	-webkit-filter: grayscale(100%);
+}
+
+ol.calendar li.psz {
+	background: url(img/psz.png) no-repeat left center;
+	color: #fff;
+	text-shadow: 0 0 12px rgba(0,0,0,0.75);
+	-webkit-filter: grayscale(100%);
+}
+
+.meisje-logeren {
+	background: url(img/meisje-logeren.jpeg) no-repeat center center / cover;
 	text-shadow: 0 0 12px rgba(0,0,0,0.75);
 	-webkit-filter: grayscale(100%);
 }
